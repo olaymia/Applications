@@ -1,0 +1,97 @@
+
+.calc-table {
+	padding: 10px;
+	width: 295px;
+}
+
+.screen {
+	background: #FFF;
+	border: 1px solid #C0C0C0;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px;
+	outline: none;
+	text-align: right;
+	width: 92%;
+}
+
+.calc-btn {
+	background: #F5F5F5;
+	border: 1px solid #DEDEDE;
+	cursor: pointer;
+	padding: 10px 10px;
+	text-align: center;
+	width: 65px;
+}
+
+.calc-btn:hover {
+	-moz-box-shadow: 0 0 2px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.4);
+	box-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+.operator {
+	background: #D5D5D5;
+	border: 1px solid #C6C6C6;
+	color: #444;
+	font-weight: bold;
+}
+
+.equals {
+	background: #4C8EFB;
+	border: 1px solid #3079ED;
+	color:  #FFF;
+}
+
+
+/*Dark Theme*/
+
+.dark .calc-table {
+	background: #747474;
+}
+
+.dark .screen {
+	background: #000;
+	border: 1px solid #C0C0C0;
+	color:  orange;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px;
+	outline: none;
+	text-align: right;
+	width: 100%;
+}
+
+.dark .calc-btn {
+	background: #566163;
+	color: #FFF;
+	border: 1px solid #DEDEDE;
+	cursor: pointer;
+	padding: 10px 10px;
+	text-align: center;
+	width: 65px;
+}
+
+.dark .calc-btn:hover {
+	-moz-box-shadow: 0 0 2px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.4);
+	box-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+.dark .operator {
+	background: #273234;
+	border: 1px solid #C6C6C6;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.dark .equals {
+	background: #EF6C1E;
+	border: 1px solid #FF3D00;
+	color:  #FFF;
+}
+
+.dark .del {
+	color:  #EF6C1E;
+}
+
